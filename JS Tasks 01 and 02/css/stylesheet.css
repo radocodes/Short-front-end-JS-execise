@@ -1,0 +1,64 @@
+body {
+    font-size: 16px;
+}
+
+#logo-header {
+    margin: 0%;
+}
+
+.logo-background {
+    background-color: rgba(85, 85, 214, 0.623);
+}
+
+.logo {
+    height: 120px;
+    width: 318px;
+}
+
+.left-panel {
+    background-color: rgb(255, 243, 81);
+    border-right: 2px solid rgba(0, 0, 0, 0.884);
+
+}
+
+.right-panel {
+    background-color: rgb(209, 23, 23);
+}
+
+.button {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 7px;
+    width: 150px;
+}
+
+.button:hover {
+    background-color: rgb(56, 55, 55);
+}
+
+#footer-text {
+    text-align: center;
+    background-color: rgb(57, 119, 57);
+    color: rgb(235, 235, 235);
+    margin: 0%;
+}
+
+.table {
+
+    background-color: rgb(253, 253, 136);
+}
+
+footer {
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}

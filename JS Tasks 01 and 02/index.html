@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="container-fluid logo-background">
+        <div class="row">
+            <div class="col-12">
+                <img class="logo mx-auto d-block" src="img/web-tech-employed.jpg" alt="front-end logo">
+            </div>
+        </div>
+    </header>
+
+    <main class="container-fluid">
+        <div class="row">
+
+            <aside class="col-sm-3 col-12 left-panel">
+                <p id="js-text">JS side menu here</p>
+                <p id="jq-text">JQ side menu here</p>
+            </aside>
+
+            <section class="col-sm-9 col-12 right-panel">
+                <div id="js-button" class="button">
+                    JS Just do it
+                </div>
+                <div id="jq-button" class="button">
+                    jQ Just do it
+                </div>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Names:</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body-ajax-content">
+                        <!--table content text loading here by Ajax -->
+                    </tbody>
+                </table>
+
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Friends:</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body-persons">
+                        <!--table content about persons generate here by JS-->
+                    </tbody>
+                </table>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-12" id="footer-text">
+                &copy; 2019 | Radoslav | All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/persons.js"></script>
+    <script type="text/javascript" src="js/service.js"></script>
+
+</body>
+
+</html>
